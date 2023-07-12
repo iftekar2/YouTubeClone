@@ -1,4 +1,5 @@
 import React from "react";
+import "../components/Style.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Feed from "../components/Feed";
@@ -8,7 +9,8 @@ import VideoDetail from "../components/VideoDetail";
 
 function App() {
   return (
-    <div>
+    <div className="mainPage">
+      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Feed />}></Route>

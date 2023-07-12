@@ -1,0 +1,76 @@
+.mainPage {
+  margin: 0;
+  padding: 0;
+}
+
+.navSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 250px;
+  height: 60px;
+  padding: 0 16px;
+  background-color: black;
+}
+
+.faBars {
+  height: 25px;
+  width: 25px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.center {
+  flex: 0 1 732px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search {
+  width: 400px;
+  height: 35px;
+  font-size: 20px;
+  padding-left: 15px;
+  border-radius: 50px 0px 0 50px;
+  border: 1px solid black;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchIconDiv {
+  width: 50px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  border-radius: 0 50px 50px 0;
+}
+
+.searchIcon {
+  height: 20px;
+  width: 20px;
+  color: #e0e0e0;
+}
