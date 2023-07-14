@@ -29,9 +29,11 @@ body {
   /*This is styling the Burger Menu*/
   height: 25px;
   width: 25px;
+  font-weight: 200;
 }
 
 .faBars:hover {
+  /*This is styling the Burger Menu when we hover over it*/
   cursor: pointer;
 }
 
@@ -42,6 +44,7 @@ body {
 }
 
 .logo img:hover {
+  /*This is styling the Logo Image when we hover over it*/
   cursor: pointer;
 }
 
@@ -62,8 +65,8 @@ body {
 
 .searchBox {
   /*This is styling Input Box*/
-  width: 400px;
-  height: 35px;
+  width: 500px;
+  height: 40px;
   font-size: 20px;
   padding-left: 15px;
   border-radius: 50px 0px 0 50px;
@@ -74,13 +77,29 @@ body {
 .searchIconDiv {
   /*This is styling Search Icon Div*/
   width: 50px;
-  height: 39px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #222222;
   border-radius: 0 50px 50px 0;
 }
+
 .searchIconDiv:hover {
+  /*This is styling Search Icon Div when we hover over it*/
   cursor: pointer;
+}
+
+.sideBar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 224px;
+  height: 557px;
+  border-right: 1px solid #2a2a2a;
+  color: white;
+}
+
+.copyRight {
+  font-size: 14px;
 }

@@ -1,4 +1,5 @@
-import React from "react";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
