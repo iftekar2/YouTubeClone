@@ -11,16 +11,19 @@ function Navbar() {
           <FontAwesomeIcon icon={faBars} className="faBars" />
         </div>
         <div className="logo">
-          <img className="youtubeLogo" src="./Images/youtube.png" />
-          <h2 className="title">YouTube</h2>
+          <img className="youtubeLogo" src="../Images/youtubeLogo.png" />
         </div>
       </div>
 
       <div className="center">
         <div className="searchBar">
-          <input className="search" placeholder="Search"></input>
+          <input
+            className="searchBox"
+            id="searchBox"
+            placeholder="Search"
+          ></input>
           <div className="searchIconDiv">
-            <FontAwesomeIcon icon={faMagnifyingGlass} className="searchIcon" />
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
           </div>
         </div>
       </div>
