@@ -2,6 +2,75 @@ body {
   /*This is styling the Whole Body */
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #000000;
   color: white;
+}
+
+.HomePageSection {
+  /*This is the Home Page Section*/
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePageIcons {
+  /*This is styling Icons Div that are in Home Page*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.firstImage,
+.secondImage,
+.thirdImage,
+.forthImage,
+.fifthImage {
+  /*This is styling Indevidual Icons in Home Page*/
+  height: 65px;
+  width: 65px;
+  background-color: rgb(207, 207, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.homePageIcons img {
+  /*This is styling Icons in Home Page*/
+  height: 50px;
+  width: 50px;
+}
+
+.HomeTitle {
+  /*This is styling Home Page Title*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.slogan {
+  /*This is styling Slogans in Home Page*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.slogan p {
+  /*This is styling P tags in Slogan Div*/
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.slogan .dot {
+  /*This is styling Dots that I have between Logan*/
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
