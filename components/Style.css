@@ -52,6 +52,10 @@ body {
   font-size: 50px;
 }
 
+.HomeTitle h1 {
+  margin-bottom: 50px;
+}
+
 .slogan {
   /*This is styling Slogans in Home Page*/
   display: flex;
