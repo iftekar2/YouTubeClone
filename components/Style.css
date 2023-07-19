@@ -9,7 +9,7 @@ body {
 .HomePageSection {
   /*This is the Home Page Section*/
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,4 +77,35 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+/*This is the Slogan Page*/
+.sloganSection {
+  /*This is Slogan Section*/
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sloganTitle {
+  /*This is styling Slogan Title*/
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sloganDescription {
+  /*This is styling Slogan Description Div*/
+  width: 800px;
+}
+
+.sloganDescription p {
+  /*This is styling Slogan Description P tags*/
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
