@@ -3,7 +3,7 @@ import "./Style.css";
 
 function HomePage() {
   return (
-    <section className="HomePageSection">
+    <section className="HomeSection">
       <div className="homePage">
         <div className="homePageIcons">
           <div className="firstImage">

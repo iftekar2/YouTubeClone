@@ -6,7 +6,7 @@ body {
   color: white;
 }
 
-.HomePageSection {
+.HomeSection {
   /*This is the Home Page Section*/
   height: 100vh;
   width: 100vw;
@@ -82,7 +82,7 @@ body {
 /*This is the Slogan Page*/
 .sloganSection {
   /*This is Slogan Section*/
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -91,15 +91,17 @@ body {
 
 .sloganTitle {
   /*This is styling Slogan Title*/
-  font-size: 30px;
+  font-size: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 865px;
 }
 
 .sloganDescription {
   /*This is styling Slogan Description Div*/
-  width: 800px;
+  width: 865px;
+  margin: 0px;
 }
 
 .sloganDescription p {
@@ -108,4 +110,57 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.AboutSection {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.aboutOne img {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.aboutOneInfo h1 {
+  font-size: 32px;
+}
+
+.aboutOneDescription {
+  width: 750px;
+  font-size: 20px;
+}
+
+.aboutTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.aboutTwo img {
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.aboutTwoInfo h1 {
+  font-size: 32px;
+}
+
+.aboutTwoDescription {
+  width: 750px;
+  font-size: 20px;
 }
