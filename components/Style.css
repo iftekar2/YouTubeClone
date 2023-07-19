@@ -9,7 +9,7 @@ body {
 .HomeSection {
   /*This is the Home Page Section*/
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,15 +112,19 @@ body {
   align-items: center;
 }
 
+/*This is About Page*/
 .AboutSection {
+  /*This is styling About Section*/
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 .aboutOne {
+  /*This is styling First About Div*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,21 +133,25 @@ body {
 }
 
 .aboutOne img {
+  /*This is styling First about Image*/
   height: 300px;
   width: 400px;
   border-radius: 20px;
 }
 
 .aboutOneInfo h1 {
+  /*This is styling First about H1*/
   font-size: 32px;
 }
 
 .aboutOneDescription {
+  /*This is styling First about Description Div*/
   width: 750px;
   font-size: 20px;
 }
 
 .aboutTwo {
+  /*This is styling Second About Div*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,16 +159,69 @@ body {
 }
 
 .aboutTwo img {
+  /*This is styling Second about Image*/
   height: 300px;
   width: 400px;
   border-radius: 20px;
 }
 
 .aboutTwoInfo h1 {
+  /*This is styling Second about H1*/
   font-size: 32px;
 }
 
 .aboutTwoDescription {
+  /*This is styling Second about Description Div*/
   width: 750px;
   font-size: 20px;
+}
+
+/*This is Example Page*/
+.ExampleSection {
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.examplePage {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.examplePage img {
+  border-radius: 20px;
+  border: 1px solid rgb(139, 138, 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.exampleOne,
+.exampleTwo,
+.exampleThree,
+.exampleFour,
+.exampleFive,
+.exampleSix {
+  color: #000000;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.workoutName {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.exampleDiv {
+  width: 260px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
