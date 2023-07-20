@@ -115,12 +115,12 @@ body {
 /*This is About Page*/
 .AboutSection {
   /*This is styling About Section*/
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
 }
 
 .aboutOne {
@@ -178,23 +178,17 @@ body {
 
 /*This is Example Page*/
 .ExampleSection {
+  /*This is styling Example Section*/
   height: 200vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.examplePage {
-  width: 900px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
 }
 
 .examplePage img {
+  /*This is styling Example Page Image*/
   border-radius: 20px;
   border: 1px solid rgb(139, 138, 138);
   display: flex;
@@ -202,26 +196,62 @@ body {
   align-items: center;
   cursor: pointer;
 }
+
 .exampleOne,
 .exampleTwo,
 .exampleThree,
 .exampleFour,
 .exampleFive,
 .exampleSix {
+  /*This is styling all the Examples that we have in the Page*/
   color: #000000;
   border-radius: 20px;
   margin-top: 10px;
 }
 
 .workoutName {
+  /*This is styling Workout Names*/
   font-size: 16px;
   cursor: pointer;
 }
 
 .exampleDiv {
+  /*This is styling Example Div*/
   width: 260px;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.exerciseExamples {
+  /*This is styling Exercise Examples*/
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.exampleTitle {
+  /*This is styling Example Title*/
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exampleTitle h2 {
+  /*This is styling example Title*/
+  margin-bottom: 20px;
+}
+
+.exampleDescription {
+  /*This is styling Example Description*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  margin-bottom: 50px;
 }
