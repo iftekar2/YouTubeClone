@@ -15,7 +15,6 @@ function App() {
       <SloganPage />
       <AboutPage />
       <ExamplePage />
-      <ActionPage />
       <FAQPage />
       <FooterPage />
     </div>
