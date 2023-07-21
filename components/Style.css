@@ -256,7 +256,9 @@ body {
   margin-bottom: 50px;
 }
 
+/*This is FAQ Page*/
 .FAQSection {
+  /*This is styling FAQ Section*/
   height: 100vh;
   width: 100%;
   display: flex;
@@ -265,6 +267,7 @@ body {
 }
 
 .faqPage {
+  /*This is styling FAQ Page*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,9 +276,35 @@ body {
 }
 
 .faqPage h2 {
+  /*This is styling H2 elements in FAQ Page*/
   font-size: 25px;
 }
 
 .faqPage p {
+  /*This is styling P elements in FAQ Page*/
   font-size: 18px;
+}
+
+/*This is Footer Page*/
+.footerPage {
+  /*This is styling Footer Page*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70%;
+  margin-bottom: 20px;
+}
+
+.footerIcons {
+  /*This is styling Footer Icons*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footerIcons img {
+  /*This is styling Footer Images*/
+  width: 40px;
+  height: 40px;
 }
