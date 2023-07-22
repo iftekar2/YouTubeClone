@@ -4,11 +4,12 @@ body {
   padding: 0;
   background-color: #000000;
   color: white;
+  height: 2400px;
 }
 
 .HomeSection {
   /*This is the Home Page Section*/
-  height: 100vh;
+  height: 600px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -82,7 +83,7 @@ body {
 /*This is the Slogan Page*/
 .sloganSection {
   /*This is Slogan Section*/
-  height: 100vh;
+  height: 600px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -115,7 +116,7 @@ body {
 /*This is About Page*/
 .AboutSection {
   /*This is styling About Section*/
-  height: 110vh;
+  height: 600px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -179,7 +180,7 @@ body {
 /*This is Example Page*/
 .ExampleSection {
   /*This is styling Example Section*/
-  height: 200vh;
+  height: 1200px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -259,7 +260,7 @@ body {
 /*This is FAQ Page*/
 .FAQSection {
   /*This is styling FAQ Section*/
-  height: 100vh;
+  height: 600px;
   width: 100%;
   display: flex;
   justify-content: center;
